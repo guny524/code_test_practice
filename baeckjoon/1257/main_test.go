@@ -15,4 +15,5 @@ func TestSolve(t *testing.T) {
 	assert.Equal(uint64(1000000000000000000), Solve(1000000000000000000, []int{1}), "test5")
 	assert.Equal(uint64(10), Solve(100000, []int{1, 10000, 10000}), "test6")
 	assert.Equal(uint64(2), Solve(8, []int{1, 4, 5, 6}), "test7")
+	assert.Equal(uint64(3), Solve(65, []int{1, 4, 30, 31}), "test8")
 }
